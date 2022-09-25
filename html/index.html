@@ -9,15 +9,28 @@
         <title>Consultar CPF</title>
     </head>
     <body>
-        <section class="formCEP">
-            <form action="">
-                <label for="cpfClient"><b>CEP</b></label>
-                <input type="text" id="cpfClient" required placeholder="00.000-000">
-
-                <input type="button" value="Adicionar CEP" class="addCEP">
-
-                <input type="submit" value="Consultar" class="sendForm">
-            </form>
+        <section class="contentSite">
+            <section class="formCEP">
+                <form>
+                    <ul>
+                        <li>
+                            <label for="cepClient"><b>CEP</b></label>
+                            <input type="text" class="cepClient" required placeholder="00.000-000" 
+                                pattern="[0-9]">
+                        </li>
+                    </ul>
+    
+                    <input type="button" value="Adicionar CEP" class="addCEP">
+    
+                    <input type="button" value="Consultar" class="sendForm">
+                </form>
+            </section><!--
+    
+        --><section class="results">
+                <h1>RESULTADOS</h1>
+            </section>
         </section>
+        
+        <script src="../script/index.js"></script>
     </body>
 </html>
