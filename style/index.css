@@ -4,7 +4,7 @@ body {
 }
 
 .contentSite {
-    max-width: 1080px;
+    max-width: 720px;
     width: 80%;
     margin: 0 auto;
 }
@@ -50,11 +50,13 @@ input {
 }
 
 .cepClient, .sendForm {
+    max-width: 300px;
     width: 70%;
     padding: 1em 1em;
 }
 
 .addCEP {
+    display: block;
     background-color: #5555fd;
     color: white;
 
@@ -67,7 +69,7 @@ input {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 830px) {
     .contentSite {
         width: 90%;
         margin: 0 auto;
